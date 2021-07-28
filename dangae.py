@@ -10,7 +10,7 @@ async def on_message(message):
     print(message.content)
     if message.content.lower() == "i am gae":
         print(message)
-        while True: 
+        while False: 
             pass 
     else:
         await message.delete()
