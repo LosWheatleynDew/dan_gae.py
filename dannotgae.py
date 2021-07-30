@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 @bot.event
 async def on_message(message):
     print(message.content)
-    if message.content.lower() == "i am gae":
+    if message.content.lower() == "i am not gae":
         print(message)
         while True: 
             pass 
